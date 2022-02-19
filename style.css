@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+}
+.navigacija {
+  height: 150px;
+  width: 100vw;
+  margin: 0;
+}
+.animation {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+.jedan {
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  width: 15px;
+  height: 120px;
+  background-color: black;
+  border-radius: 50px;
+  left: 50px;
+  top: 15px;
+  animation-name: levo;
+  position: absolute;
+  animation-duration: 20s;
+}
+@keyframes levo {
+  0% {
+    left: 50px;
+    transform: rotate(0deg);
+  }
+  14% {
+    left: 50px;
+    transform: rotate(0deg);
+  }
+  15% {
+    left: 50px;
+    transform: rotate(45deg);
+  }
+  38% {
+    left: 50px;
+    transform: rotate(45deg);
+  }
+  39% {
+    left: 35px;
+    transform: rotate(0deg);
+  }
+  62% {
+    left: 35px;
+    transform: rotate(0deg);
+  }
+  63% {
+    left: 50px;
+    transform: rotate(45deg);
+  }
+  86% {
+    left: 50px;
+    transform: rotate(45deg);
+  }
+  87% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.dva {
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  width: 15px;
+  height: 120px;
+  background-color: black;
+  border-radius: 50px;
+  left: 50px;
+  position: absolute;
+  top: 15px;
+  animation-name: desno;
+  animation-duration: 20s;
+}
+@keyframes desno {
+  0% {
+    left: 50px;
+    transform: rotate(0deg);
+  }
+  14% {
+    left: 50px;
+    transform: rotate(0deg);
+  }
+  15% {
+    left: 50px;
+    transform: rotate(-45deg);
+  }
+  38% {
+    left: 50px;
+    transform: rotate(-45deg);
+  }
+  39% {
+    left: 65px;
+    transform: rotate(0deg);
+  }
+  62% {
+    left: 65px;
+    transform: rotate(0deg);
+  }
+  63% {
+    left: 50px;
+    transform: rotate(-45deg);
+  }
+  86% {
+    left: 50px;
+    transform: rotate(-45deg);
+  }
+  87% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
